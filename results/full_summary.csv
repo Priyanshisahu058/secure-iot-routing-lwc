@@ -1,0 +1,5 @@
+topology,baseline_pdr,secure_pdr,baseline_delay_ms,secure_delay_ms,baseline_hops,secure_hops,secure_energy_mj,secure_memory_kb
+Star-50,97.6,96.4,7.017,7.587,1.0,1,0.075,0.01562
+Mesh-100,82.6,80.6,33.822,37.445,8.69,8.86,0.664392,0.07702
+Tree-80,88.6,87.0,19.643,20.86,4.61,4.48,0.335862,0.0428
+Random-150,89.4,88.2,18.694,23.313,4.36,5.13,0.384524,0.047867

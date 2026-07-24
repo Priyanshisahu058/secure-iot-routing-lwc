@@ -1,0 +1,19 @@
+NODE CAPTURE & RECOVERY LOG
+========================================
+Initial network: ['N1', 'N2', 'N3', 'N4', 'N5']
+[CAPTURE] Node N3 compromised. Key stolen: d97b12d0a62d7f22941535dad2482363
+  Attacker decrypts pre-revocation traffic successfully: 'ROUTE_UPDATE:next_hop=BaseStation'
+[DETECTION] Base Station flags N3 as compromised.
+[REVOCATION] Revoking key for compromised node and re-keying legitimate nodes.
+  N1: re-keyed. New key 2880bde21608651e2a437a2915500fbe
+  N2: re-keyed. New key 2880bde21608651e2a437a2915500fbe
+  N3: key revoked, excluded from network.
+  N4: re-keyed. New key 2880bde21608651e2a437a2915500fbe
+  N5: re-keyed. New key 2880bde21608651e2a437a2915500fbe
+[CYCLE 1] legit_decrypt_ok=True attacker_blocked=True
+[CYCLE 2] legit_decrypt_ok=True attacker_blocked=True
+[CYCLE 3] legit_decrypt_ok=True attacker_blocked=True
+[CYCLE 4] legit_decrypt_ok=True attacker_blocked=True
+[CYCLE 5] legit_decrypt_ok=True attacker_blocked=True
+
+RECOVERY COMPLETE at routing cycle 1 (<= 5 required).

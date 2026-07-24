@@ -1,0 +1,70 @@
+ACCEPTED          -> src=NodeA seq=3
+ACCEPTED          -> src=NodeA seq=1
+ACCEPTED          -> src=NodeA seq=2
+REJECTED (replay) -> src=NodeA seq=3
+ACCEPTED          -> src=NodeA seq=4
+ACCEPTED          -> src=NodeA seq=5
+ACCEPTED          -> src=NodeA seq=6
+ACCEPTED          -> src=NodeA seq=7
+ACCEPTED          -> src=NodeA seq=8
+ACCEPTED          -> src=NodeA seq=9
+ACCEPTED          -> src=NodeA seq=10
+ACCEPTED          -> src=NodeA seq=11
+ACCEPTED          -> src=NodeA seq=12
+ACCEPTED          -> src=NodeA seq=41
+ACCEPTED          -> src=NodeA seq=13
+REJECTED (replay) -> src=NodeA seq=9
+ACCEPTED          -> src=NodeA seq=14
+ACCEPTED          -> src=NodeA seq=15
+REJECTED (replay) -> src=NodeA seq=6
+ACCEPTED          -> src=NodeA seq=33
+ACCEPTED          -> src=NodeA seq=16
+ACCEPTED          -> src=NodeA seq=48
+ACCEPTED          -> src=NodeA seq=17
+ACCEPTED          -> src=NodeA seq=18
+ACCEPTED          -> src=NodeA seq=19
+ACCEPTED          -> src=NodeA seq=20
+ACCEPTED          -> src=NodeA seq=21
+ACCEPTED          -> src=NodeA seq=37
+ACCEPTED          -> src=NodeA seq=22
+ACCEPTED          -> src=NodeA seq=23
+ACCEPTED          -> src=NodeA seq=24
+ACCEPTED          -> src=NodeA seq=25
+REJECTED (replay) -> src=NodeA seq=15
+REJECTED (replay) -> src=NodeA seq=7
+ACCEPTED          -> src=NodeA seq=26
+ACCEPTED          -> src=NodeA seq=27
+ACCEPTED          -> src=NodeA seq=28
+ACCEPTED          -> src=NodeA seq=45
+ACCEPTED          -> src=NodeA seq=29
+ACCEPTED          -> src=NodeA seq=30
+ACCEPTED          -> src=NodeA seq=31
+ACCEPTED          -> src=NodeA seq=32
+REJECTED (replay) -> src=NodeA seq=33
+ACCEPTED          -> src=NodeA seq=47
+ACCEPTED          -> src=NodeA seq=35
+REJECTED (replay) -> src=NodeA seq=16
+ACCEPTED          -> src=NodeA seq=34
+REJECTED (replay) -> src=NodeA seq=14
+REJECTED (replay) -> src=NodeA seq=35
+ACCEPTED          -> src=NodeA seq=36
+REJECTED (replay) -> src=NodeA seq=37
+ACCEPTED          -> src=NodeA seq=38
+ACCEPTED          -> src=NodeA seq=39
+ACCEPTED          -> src=NodeA seq=40
+REJECTED (replay) -> src=NodeA seq=2
+REJECTED (replay) -> src=NodeA seq=41
+ACCEPTED          -> src=NodeA seq=42
+REJECTED (replay) -> src=NodeA seq=18
+REJECTED (replay) -> src=NodeA seq=38
+ACCEPTED          -> src=NodeA seq=50
+ACCEPTED          -> src=NodeA seq=43
+ACCEPTED          -> src=NodeA seq=44
+REJECTED (replay) -> src=NodeA seq=8
+REJECTED (replay) -> src=NodeA seq=28
+REJECTED (replay) -> src=NodeA seq=45
+ACCEPTED          -> src=NodeA seq=46
+REJECTED (replay) -> src=NodeA seq=47
+REJECTED (replay) -> src=NodeA seq=48
+ACCEPTED          -> src=NodeA seq=49
+REJECTED (replay) -> src=NodeA seq=50

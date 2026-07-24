@@ -1,0 +1,147 @@
+SINKHOLE ATTACK & TRUST-BASED DETECTION LOG
+==================================================
+S3 advertises hop_count=1 (malicious, false advertisement)
+--- Round 1 ---
+S1->S3 forwarded=False | S3 trust=88.0
+S2->S3 forwarded=True | S3 trust=90.0
+S4->S3 forwarded=False | S3 trust=78.0
+S5->S3 forwarded=False | S3 trust=66.0
+S6->S3 forwarded=False | S3 trust=54.0
+Round 1 summary: S3 trust = 54.0
+--- Round 2 ---
+S1->S3 forwarded=False | S3 trust=42.0
+S2->S3 forwarded=False | S3 trust=30.0
+S4->S3 forwarded=False | S3 trust=18.0
+S5->S3 forwarded=False | S3 trust=6.0
+S6->S3 forwarded=True | S3 trust=8.0
+Round 2 summary: S3 trust = 8.0
+[DETECTION] S3 flagged malicious at round 2, trust=8.0
+[ROUTING UPDATE] All nodes recompute routes avoiding S3.
+--- Round 3 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 3 summary: S3 trust = 8.0
+--- Round 4 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 4 summary: S3 trust = 8.0
+--- Round 5 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 5 summary: S3 trust = 8.0
+--- Round 6 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 6 summary: S3 trust = 8.0
+--- Round 7 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 7 summary: S3 trust = 8.0
+--- Round 8 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 8 summary: S3 trust = 8.0
+--- Round 9 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 9 summary: S3 trust = 8.0
+--- Round 10 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 10 summary: S3 trust = 8.0
+--- Round 11 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 11 summary: S3 trust = 8.0
+--- Round 12 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 12 summary: S3 trust = 8.0
+--- Round 13 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 13 summary: S3 trust = 8.0
+--- Round 14 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 14 summary: S3 trust = 8.0
+--- Round 15 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 15 summary: S3 trust = 8.0
+--- Round 16 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 16 summary: S3 trust = 8.0
+--- Round 17 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 17 summary: S3 trust = 8.0
+--- Round 18 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 18 summary: S3 trust = 8.0
+--- Round 19 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 19 summary: S3 trust = 8.0
+--- Round 20 ---
+S1-> alt route (S3 bypassed)
+S2-> alt route (S3 bypassed)
+S4-> alt route (S3 bypassed)
+S5-> alt route (S3 bypassed)
+S6-> alt route (S3 bypassed)
+Round 20 summary: S3 trust = 8.0
+
+Detection accuracy across 50 trials: 100.0%

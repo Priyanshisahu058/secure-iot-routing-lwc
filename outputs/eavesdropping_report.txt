@@ -1,0 +1,30 @@
+EAVESDROPPING ATTACK REPORT
+========================================
+Packet 1
+  Original plaintext length : 23 bytes
+  Captured ciphertext (hex) : 7b6e4230e8775d263eff4b8b2617ebab5b53e5caa24f8d
+  Readable plaintext recovered by attacker: 0 bytes
+----------------------------------------
+Packet 2
+  Original plaintext length : 21 bytes
+  Captured ciphertext (hex) : 82ca0d66a3ff750c90585814906d5e864a18dfc59a
+  Readable plaintext recovered by attacker: 0 bytes
+----------------------------------------
+Packet 3
+  Original plaintext length : 21 bytes
+  Captured ciphertext (hex) : feed6fe9f1a2ca2acd6cbb6bfe5034572e8726d47b
+  Readable plaintext recovered by attacker: 0 bytes
+----------------------------------------
+Packet 4
+  Original plaintext length : 24 bytes
+  Captured ciphertext (hex) : 0a2319a84f58e6ba31a837bf90271e76d818f70f99a3f09a
+  Readable plaintext recovered by attacker: 0 bytes
+----------------------------------------
+Packet 5
+  Original plaintext length : 16 bytes
+  Captured ciphertext (hex) : be642d1b0e40b5e78b4ca1f0487dac1d
+  Readable plaintext recovered by attacker: 0 bytes
+----------------------------------------
+
+TOTAL readable plaintext bytes recovered: 0
+CONCLUSION: AES-encrypted ciphertext is indistinguishable from random data without the key. Attacker recovered 0 bytes of meaningful plaintext.
